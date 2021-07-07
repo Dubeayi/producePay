@@ -1,0 +1,39 @@
+{
+  "name": "producepay",
+  "version": "1.0.0",
+  "description": "A simple app that denotes the change in the price of stocks/commodities",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dubeayi/producePay.git"
+  },
+  "author": "Dubeayi Okorie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dubeayi/producePay/issues"
+  },
+  "homepage": "https://github.com/Dubeayi/producePay#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.9",
+    "pg": "^8.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "request": "^2.88.2",
+    "util": "^0.12.4",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
